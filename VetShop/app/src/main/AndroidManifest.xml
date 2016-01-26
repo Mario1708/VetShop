@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="collegelife.life.com.vetshop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.PERMISSION_GRANTED" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_vetshop"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Inicio"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Logueate"
+            android:label="@string/title_activity_logueate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registro"
+            android:label="@string/title_activity_registro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Menu_Inicial"
+            android:label="@string/title_activity_menu__inicial"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InformaciongeneraldeLaboratorios"
+            android:label="@string/title_activity_informaciongeneralde_laboratorios"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Guarderia"
+            android:label="@string/title_activity_guarderia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InformacionGeneral"
+            android:label="@string/title_activity_informacion_general"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ContactoLaboratorios"
+            android:label="@string/title_activity_contacto_laboratorios"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapaAtencionMedica"
+            android:label="@string/title_activity_mapa_atencion_medica" />
+        <activity
+            android:name=".Agrocampo"
+            android:label="@string/title_activity_agrocampo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MapaGeneral"
+            android:label="@string/title_activity_mapa_general" />
+        <activity
+            android:name=".FormularioparaContactarnos"
+            android:label="@string/title_activity_formulariopara_contactarnos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Infogeneralatencionmedica"
+            android:label="@string/title_activity_infogeneralatencionmedica"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Infogeneralmarket"
+            android:label="@string/title_activity_infogeneralmarket"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Infogeneralfuneraria"
+            android:label="@string/title_activity_infogeneralfuneraria"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Infogeneralentretenimiento"
+            android:label="@string/title_activity_infogeneralentretenimiento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Infogeneralcolegio"
+            android:label="@string/title_activity_infogeneralcolegio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Infogeneraltransporte"
+            android:label="@string/title_activity_infogeneraltransporte"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mapalaboratorios"
+            android:label="@string/title_activity_mapalaboratorios" />
+        <activity
+            android:name=".SaludAnimal"
+            android:label="@string/title_activity_salud_animal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".imagensaludanimal"
+            android:label="@string/title_activity_imagensaludanimal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CaninoHouse"
+            android:label="@string/title_activity_canino_house"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mapaguarderia"
+            android:label="@string/title_activity_mapaguarderia" />
+        <activity
+            android:name=".Ceba"
+            android:label="@string/title_activity_ceba"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MapaMarket"
+            android:label="@string/title_activity_mapa_market" />
+        <activity
+            android:name=".Mapafunerarias"
+            android:label="@string/title_activity_mapafunerarias" />
+        <activity
+            android:name=".BosquedelSilecio"
+            android:label="@string/title_activity_bosquedel_silecio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PETSHOME"
+            android:label="@string/title_activity_petshome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mapaentertain"
+            android:label="@string/title_activity_mapaentertain" />
+        <activity
+            android:name=".DoggyH"
+            android:label="@string/title_activity_doggy_h"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MapaColegios"
+            android:label="@string/title_activity_mapa_colegios" />
+        <activity
+            android:name=".CaniTaxi"
+            android:label="@string/title_activity_cani_taxi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mapatransporte"
+            android:label="@string/title_activity_mapatransporte" />
+        <activity
+            android:name=".PySAgrocampo"
+            android:label="@string/title_activity_py_sagrocampo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PySsanimal"
+            android:label="@string/title_activity_py_ssanimal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PySCaminoH"
+            android:label="@string/title_activity_py_scamino_h"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PySCeba"
+            android:label="@string/title_activity_py_sceba"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PySbosquesilen"
+            android:label="@string/title_activity_py_sbosquesilen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PySpetsH"
+            android:label="@string/title_activity_py_spets_h"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PySdoggy"
+            android:label="@string/title_activity_py_sdoggy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PyScaniTax"
+            android:label="@string/title_activity_py_scani_tax"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NotificacionesInicio"
+            android:label="@string/title_activity_notificaciones_inicio"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
